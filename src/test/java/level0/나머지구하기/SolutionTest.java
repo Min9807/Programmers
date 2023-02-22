@@ -8,14 +8,14 @@ import static org.assertj.core.api.AssertionsForClassTypes.assertThat;
 
 public class SolutionTest {
     @Test
-    @DisplayName("2, 3 => -1")
+    @DisplayName("3, 2 => 1")
     void t1(){
-        assertThat(new level0.몫구하기.Solution().solution(10, 5)).isEqualTo(2);
+        assertThat(new level0.몫구하기.Solution().solution(3, 2)).isEqualTo(1);
     }
 
     @Test
     @DisplayName("2, 3 => -1")
     void t2(){
-        assertThat(new Solution().solution(7, 2)).isEqualTo(3);
+        assertThat(new Solution().solution(10, 5)).isEqualTo(0);
     }
 }
