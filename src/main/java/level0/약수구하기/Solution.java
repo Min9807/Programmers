@@ -1,6 +1,6 @@
 package level0.약수구하기;
 
-class Solution {
+public class Solution {
     public int[] solution(int n) {
         int[] answer = {};
         int count = 0;
